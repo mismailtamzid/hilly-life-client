@@ -1,0 +1,78 @@
+/* ========banner css====== */
+
+.banner1{
+    background-image: url('http://demo.posthemes.com/pos_ecolife_autopart/autopart3/modules/posslideshows/images/fa49460cb34e07f9611f4af6f495aab307107fc9_2_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    text-align: start;
+    color: aliceblue;
+}
+.banner2{
+    background-image: url('http://demo.posthemes.com/pos_ecolife_autopart/autopart3/modules/posslideshows/images/6639812e7c57490b96d3117cf8d6991421a0fbd6_1_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    text-align: start;
+    color: aliceblue; 
+}
+.banner{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+/* =====ForestSave50========= */
+.hidden{
+    overflow: hidden;
+}
+.img{
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.img:hover{
+    transform: scale(1.05); 
+    overflow: hidden;
+}
+
+/* =======SingleFeatured====== */
+.featuredImage:hover{
+
+}
+.featuredName{
+    overflow: hidden ;
+    text-overflow: ellipsis ;
+}
+
+/* ======SinglePopular CSS*/
+.popular{
+    background-image: url("http://demo.posthemes.com/pos_ecolife_autopart/autopart3/themes/theme_ecolife_autopart3/assets/img/bg_listcate.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.popularHover:hover img{
+background-color: rgb(107, 12, 12);
+}
+.popularText:hover{
+ color: chocolate;
+ cursor: pointer;
+}
+.popularHover:hover{
+  padding-left: 10px;
+}
+.popularImage:hover{
+    transform: scale(1.2); 
+    overflow: hidden;
+}
+.recommendHover:hover img{
+    background-color: brown;
+    width: 500px;
+}
+
